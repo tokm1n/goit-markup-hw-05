@@ -1,0 +1,158 @@
+/* Основной цвет текста #212121 */
+
+/* Вторичный цвет текста #757575 */
+
+/* Белый #FFFFFF */
+
+/* Акцент #2196F3; */
+
+/* Вторичный цвет фона #F5F4FA */
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип */
+.logoweb {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logostudio {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.foot .logostudio {
+  color: var(--white-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background: #2f303a;
+}
+
+/* Навигацыя */
+.menu-nav .link {
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+:focus {
+  background: var(--accent-color);
+  border-radius: 2px;
+}
+
+/* Контакты */
+.menu-contacts .linki {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.menu-contacts .linki:hover {
+  background: var(--accent-color);
+}
+
+/* Фильтр */
+
+.btn-filtr {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn .btn-filtr:hover,
+:focus {
+  background: #2196f3;
+  color: white;
+}
+/* Проеткы */
+.project-link {
+}
+.project-title {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.project-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Дополнительная информация */
+.info-navigation {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: #2f303a;
+}
+.info-mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a;
+}
+.info-tel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a;
+}
